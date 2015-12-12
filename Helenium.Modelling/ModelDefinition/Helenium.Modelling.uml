@@ -1,0 +1,1698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="cff39077-d752-49ce-bbf4-c3fd57cb5bd1"
+  name="Helenium.Modelling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <component
+        Id="b708a7c5-1aea-4e71-9fe1-c67e918f30d9"
+        name="Helenium.Main"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="16140425-8514-46d6-81a1-6aead5269aaa"
+        name="Діаграмма послідовностей"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="993f141c-4c14-437d-8153-9fd73f9a4207"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="3521d4c0-b024-41e3-8efa-724b47d0a5f7"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a868be7e-d6a5-484f-9b73-24573ec08c4f"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="70c2a168-120c-4467-ac11-7f4e3f737d28"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d7dad583-4bd6-4d33-bd3b-c4b5af385f77"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a944cede-efff-4493-8f2c-1fb4f3a72e59"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="66647afa-25c6-45e3-bafd-885a3588b4fd"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="deba4570-9d1b-445b-aa19-a704c4b9e740"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="be0f3cf4-e53f-42ff-907d-6d6194eecf65"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="343be7f8-e8eb-457b-b0fd-5627ea607567"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a868be7e-d6a5-484f-9b73-24573ec08c4f"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="bcab4283-352a-4533-a1a2-862bb9526038"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="40c8ffda-6490-4fa3-9219-664747fb63dd"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="5f065fcf-3927-446f-ab50-95fd6ae3c822"
+                LastKnownName="Користувач"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="70c2a168-120c-4467-ac11-7f4e3f737d28"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d7dad583-4bd6-4d33-bd3b-c4b5af385f77"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="9307ac6d-2d52-48fa-bb97-c0b5244705fc"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="66647afa-25c6-45e3-bafd-885a3588b4fd"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a944cede-efff-4493-8f2c-1fb4f3a72e59"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f2076148-783f-43d1-810d-310b511b1fd1"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a944cede-efff-4493-8f2c-1fb4f3a72e59"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="183e7b88-2119-447a-b3eb-eaab5443ce97"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f2076148-783f-43d1-810d-310b511b1fd1"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="66647afa-25c6-45e3-bafd-885a3588b4fd"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="68d83dd2-3915-4d98-bd40-40240452c2bb"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="da095cf9-a12d-435f-a338-602407083dc6"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="a6022267-1cc8-43b2-a132-a20a2e6ab7e7"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="767ec63f-b41b-4ba5-8e13-1c056fa270c1"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="70287ffc-8744-4a92-90b3-bb9fae725e5e"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="4962868f-f434-47ad-a34e-157e1e9c2465"
+                LastKnownName="OperandOccurrenceSpecification13"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1710be2f-7167-4052-b8dd-d6fff53d8a9e"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="93459a54-4a28-451d-bbe7-75943754fa93"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="7206b743-dd5b-4efb-b002-9cc26a33fd06"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="bf90b45b-f8fb-4048-a1ff-ab8c39fdbbe6"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b0216489-2244-463e-a2f5-e686d0dcebbd"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="d004cc32-f86c-4c6f-ac8f-5ca54661d2f6"
+                LastKnownName="OperandOccurrenceSpecification14"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="38c47415-6678-46a3-b0e9-9d7e4448d06d"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="767ec63f-b41b-4ba5-8e13-1c056fa270c1"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="69f18e8d-5f4e-431e-81e4-db244eeb8b7b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="deba4570-9d1b-445b-aa19-a704c4b9e740"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="70287ffc-8744-4a92-90b3-bb9fae725e5e"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <combinedFragment
+            Id="09a34140-f56b-47d8-b690-61784c9cb795"
+            name="CombinedFragment1"
+            interactionOperator="Alt"
+            customInteractionOperator="Цикл">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="987aa34e-d232-47e2-9022-b5eff197d5af"
+                LastKnownName="Форма параметрів тесту"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <lifelineMoniker
+                Id="c4f55f71-3852-4bc5-9f9b-4ae134a8791b"
+                LastKnownName="WebBrowser компонент"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <lifelineMoniker
+                Id="ded76797-1462-40b3-a914-a012d002d279"
+                LastKnownName="Файлова система журналу"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand
+                Id="8a7fa8df-b369-4a3a-a37d-b300a4d51092"
+                name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker
+                    Id="987aa34e-d232-47e2-9022-b5eff197d5af"
+                    LastKnownName="Форма параметрів тесту"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                  <lifelineMoniker
+                    Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                    LastKnownName="Головна форма"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                  <lifelineMoniker
+                    Id="c4f55f71-3852-4bc5-9f9b-4ae134a8791b"
+                    LastKnownName="WebBrowser компонент"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                  <lifelineMoniker
+                    Id="ded76797-1462-40b3-a914-a012d002d279"
+                    LastKnownName="Файлова система журналу"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint
+                    Id="fa36b9c6-0d84-42c5-9afe-204fe73fda78"
+                    guardText="Повторювати поки є сторінки для відвідування">
+                    <maxInt>
+                      <literalString
+                        Id="adc84a7a-5289-481e-89c6-feee357d5aae"
+                        name="LiteralString1" />
+                    </maxInt>
+                    <minInt>
+                      <literalString
+                        Id="00532021-2390-47ed-9d92-28de03874236"
+                        name="LiteralString2" />
+                    </minInt>
+                  </interactionConstraint>
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker
+                    Id="020af7c1-b7ab-4cc7-8d3d-12e5d91cc42f"
+                    LastKnownName="OperandOccurrenceSpecification11"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="354cf197-0603-40a2-ab5e-09f97d11a8b9"
+                    LastKnownName="OperandOccurrenceSpecification12"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="4962868f-f434-47ad-a34e-157e1e9c2465"
+                    LastKnownName="OperandOccurrenceSpecification13"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="d004cc32-f86c-4c6f-ac8f-5ca54661d2f6"
+                    LastKnownName="OperandOccurrenceSpecification14"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="9c461cd9-f0e5-4391-a6a4-66ebd4272808"
+                    LastKnownName="OperandOccurrenceSpecification15"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="4ea88716-8780-4358-a221-98cd8d3b7b77"
+                    LastKnownName="OperandOccurrenceSpecification16"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="29bc7619-2bdd-43f5-98d2-7f62c7a9ebd8"
+                    LastKnownName="OperandOccurrenceSpecification17"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="87cc1eb7-7bf4-4218-ac35-3dd269fa2435"
+                    LastKnownName="OperandOccurrenceSpecification18"
+                    LastKnownLocation="Helenium.Modelling.uml" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification
+            Id="4962868f-f434-47ad-a34e-157e1e9c2465"
+            name="OperandOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="9c461cd9-f0e5-4391-a6a4-66ebd4272808"
+            name="OperandOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="c4f55f71-3852-4bc5-9f9b-4ae134a8791b"
+                LastKnownName="WebBrowser компонент"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="29bc7619-2bdd-43f5-98d2-7f62c7a9ebd8"
+            name="OperandOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="ded76797-1462-40b3-a914-a012d002d279"
+                LastKnownName="Файлова система журналу"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="020af7c1-b7ab-4cc7-8d3d-12e5d91cc42f"
+            name="OperandOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="987aa34e-d232-47e2-9022-b5eff197d5af"
+                LastKnownName="Форма параметрів тесту"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="db052cf5-b1b8-42cf-bafc-23e93a94415c"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="987aa34e-d232-47e2-9022-b5eff197d5af"
+                LastKnownName="Форма параметрів тесту"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="9bb00fcd-0ac0-4554-acd4-b512ce103897"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7f381f83-ab6e-412e-b484-35b38fc0694e"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e5df2379-ba4b-4aa2-984b-6d0fa67b334c"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c21bffb0-a701-4a57-bf4d-6a0ecab17274"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7f381f83-ab6e-412e-b484-35b38fc0694e"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="61510a20-af98-4706-819c-b19de0a1382b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="987aa34e-d232-47e2-9022-b5eff197d5af"
+                LastKnownName="Форма параметрів тесту"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1710be2f-7167-4052-b8dd-d6fff53d8a9e"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e5df2379-ba4b-4aa2-984b-6d0fa67b334c"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="987aa34e-d232-47e2-9022-b5eff197d5af"
+                LastKnownName="Форма параметрів тесту"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="93459a54-4a28-451d-bbe7-75943754fa93"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c21bffb0-a701-4a57-bf4d-6a0ecab17274"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="987aa34e-d232-47e2-9022-b5eff197d5af"
+                LastKnownName="Форма параметрів тесту"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="9bb00fcd-0ac0-4554-acd4-b512ce103897"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2d6f2246-6d31-4a44-bc39-df46ef078b3a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="987aa34e-d232-47e2-9022-b5eff197d5af"
+                LastKnownName="Форма параметрів тесту"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="d1c8b784-7638-4542-8a2c-9945b0c39491"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="c4f55f71-3852-4bc5-9f9b-4ae134a8791b"
+                LastKnownName="WebBrowser компонент"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="ad54fcea-0d81-4a57-8ea1-4f0a215aafcf"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="110c1809-4b56-4fe0-a0d2-a4e654dbba2f"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ffe6f3d1-efcf-4c1c-bc21-20036ac4818b"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="abc41abe-51f9-49a0-bea5-15b3de1857b2"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="110c1809-4b56-4fe0-a0d2-a4e654dbba2f"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2dbcb08e-8c88-48d8-933c-73043a14d47c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="c4f55f71-3852-4bc5-9f9b-4ae134a8791b"
+                LastKnownName="WebBrowser компонент"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ffe6f3d1-efcf-4c1c-bc21-20036ac4818b"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="c4f55f71-3852-4bc5-9f9b-4ae134a8791b"
+                LastKnownName="WebBrowser компонент"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7206b743-dd5b-4efb-b002-9cc26a33fd06"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="07eb9b41-c5d6-4409-8859-43f1ebd8a1e1"
+            name="BehaviorExecutionSpecification9">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b0216489-2244-463e-a2f5-e686d0dcebbd"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="bf90b45b-f8fb-4048-a1ff-ab8c39fdbbe6"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="43c8cbb1-b7a3-4c7b-8f1c-c939be6246f8"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e9124e98-d5d7-41c9-82b0-2ce680fc03f1"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="e0f1c35a-a2ae-4188-9b61-6dce6179fdcd"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3aa3c06c-38c3-4489-8897-917905904032"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5de2311d-81a7-4917-8ab4-5f30757b888a"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="83744491-314b-4937-9255-ac5ab4d756f8"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="bf90b45b-f8fb-4048-a1ff-ab8c39fdbbe6"
+            name="ExecutionOccurrenceSpecification17">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7a83ac71-0f7d-41c2-922c-0272b775a8b9"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="abc41abe-51f9-49a0-bea5-15b3de1857b2"
+            name="MessageOccurrenceSpecification27">
+            <covered>
+              <lifelineMoniker
+                Id="c4f55f71-3852-4bc5-9f9b-4ae134a8791b"
+                LastKnownName="WebBrowser компонент"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="43c8cbb1-b7a3-4c7b-8f1c-c939be6246f8"
+            name="MessageOccurrenceSpecification28">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="ad54fcea-0d81-4a57-8ea1-4f0a215aafcf"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ac345419-fcd2-4264-9075-3184ab7e53b1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="c4f55f71-3852-4bc5-9f9b-4ae134a8791b"
+                LastKnownName="WebBrowser компонент"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e9124e98-d5d7-41c9-82b0-2ce680fc03f1"
+            name="MessageOccurrenceSpecification29">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="8b968843-1314-48f4-b9fb-efaa67da8c52"
+            name="BehaviorExecutionSpecification10">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="3aa3c06c-38c3-4489-8897-917905904032"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e0f1c35a-a2ae-4188-9b61-6dce6179fdcd"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c5dea78a-afe6-4f2e-9ded-dc93696ea8db"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e0f1c35a-a2ae-4188-9b61-6dce6179fdcd"
+            name="ExecutionOccurrenceSpecification19">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c3bfac29-c34a-49f2-bbb3-c78f62f09f74"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c5dea78a-afe6-4f2e-9ded-dc93696ea8db"
+            name="MessageOccurrenceSpecification30">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="3aa3c06c-38c3-4489-8897-917905904032"
+            name="ExecutionOccurrenceSpecification20">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="31053fa0-2e6e-43aa-b7a2-a425ef0a1f32"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="d98827dc-b8e1-4420-8f24-c62e3dcab113"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ded76797-1462-40b3-a914-a012d002d279"
+                LastKnownName="Файлова система журналу"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="800d171f-73d4-4b14-872c-43698933853e"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="055f86da-fc29-42f6-9485-d6c4ec727555"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="409ff367-184e-4807-bb14-c834ad8c2a90"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="75a0e782-64c7-4526-ae09-ebd16671b175"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="055f86da-fc29-42f6-9485-d6c4ec727555"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9db393ae-6673-4d24-8766-f23dc7b68172"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ded76797-1462-40b3-a914-a012d002d279"
+                LastKnownName="Файлова система журналу"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="409ff367-184e-4807-bb14-c834ad8c2a90"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="ded76797-1462-40b3-a914-a012d002d279"
+                LastKnownName="Файлова система журналу"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5de2311d-81a7-4917-8ab4-5f30757b888a"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="75a0e782-64c7-4526-ae09-ebd16671b175"
+            name="MessageOccurrenceSpecification25">
+            <covered>
+              <lifelineMoniker
+                Id="ded76797-1462-40b3-a914-a012d002d279"
+                LastKnownName="Файлова система журналу"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="83744491-314b-4937-9255-ac5ab4d756f8"
+            name="MessageOccurrenceSpecification26">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="800d171f-73d4-4b14-872c-43698933853e"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0882415e-828e-4632-97b7-2e4eb90f642a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ded76797-1462-40b3-a914-a012d002d279"
+                LastKnownName="Файлова система журналу"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b0216489-2244-463e-a2f5-e686d0dcebbd"
+            name="ExecutionOccurrenceSpecification18">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="431ded06-a426-4347-ae82-20a4d0aa440a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="354cf197-0603-40a2-ab5e-09f97d11a8b9"
+            name="OperandOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="987aa34e-d232-47e2-9022-b5eff197d5af"
+                LastKnownName="Форма параметрів тесту"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="d004cc32-f86c-4c6f-ac8f-5ca54661d2f6"
+            name="OperandOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="4ea88716-8780-4358-a221-98cd8d3b7b77"
+            name="OperandOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="c4f55f71-3852-4bc5-9f9b-4ae134a8791b"
+                LastKnownName="WebBrowser компонент"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="87cc1eb7-7bf4-4218-ac35-3dd269fa2435"
+            name="OperandOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="ded76797-1462-40b3-a914-a012d002d279"
+                LastKnownName="Файлова система журналу"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="38c47415-6678-46a3-b0e9-9d7e4448d06d"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="be0f3cf4-e53f-42ff-907d-6d6194eecf65"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a6022267-1cc8-43b2-a132-a20a2e6ab7e7"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0edd97ac-ce36-4b3f-9abe-0a174ec75f1c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+                LastKnownName="Головна форма"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="343be7f8-e8eb-457b-b0fd-5627ea607567"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9123ee06-6bb9-4635-bafa-79ead67a3080"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="5f065fcf-3927-446f-ab50-95fd6ae3c822"
+                LastKnownName="Користувач"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="3521d4c0-b024-41e3-8efa-724b47d0a5f7"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7589c018-fce5-4206-b01e-94cc66a44925"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Helenium.Modelling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+                LastKnownName="Головний модуль"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="5f065fcf-3927-446f-ab50-95fd6ae3c822"
+            name="Користувач"
+            isActor="false"
+            lifelineDisplayName="Користувач">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="40c8ffda-6490-4fa3-9219-664747fb63dd"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9123ee06-6bb9-4635-bafa-79ead67a3080"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="b85a74d0-d9e1-4899-8455-6e6b62aaf31a"
+            name="Головний модуль"
+            isActor="false"
+            lifelineDisplayName="Головний модуль">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="a868be7e-d6a5-484f-9b73-24573ec08c4f"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3521d4c0-b024-41e3-8efa-724b47d0a5f7"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="517eede2-c46b-4f48-b38f-2d7626b9d830"
+            name="Головна форма"
+            isActor="false"
+            lifelineDisplayName="Головна форма">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="767ec63f-b41b-4ba5-8e13-1c056fa270c1"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a6022267-1cc8-43b2-a132-a20a2e6ab7e7"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="987aa34e-d232-47e2-9022-b5eff197d5af"
+            name="Форма параметрів тесту"
+            isActor="false"
+            lifelineDisplayName="Форма параметрів тесту">
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="020af7c1-b7ab-4cc7-8d3d-12e5d91cc42f"
+                LastKnownName="OperandOccurrenceSpecification11"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7f381f83-ab6e-412e-b484-35b38fc0694e"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9bb00fcd-0ac0-4554-acd4-b512ce103897"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="354cf197-0603-40a2-ab5e-09f97d11a8b9"
+                LastKnownName="OperandOccurrenceSpecification12"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="c4f55f71-3852-4bc5-9f9b-4ae134a8791b"
+            name="WebBrowser компонент"
+            isActor="false"
+            lifelineDisplayName="WebBrowser компонент">
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="9c461cd9-f0e5-4391-a6a4-66ebd4272808"
+                LastKnownName="OperandOccurrenceSpecification15"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="110c1809-4b56-4fe0-a0d2-a4e654dbba2f"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="ad54fcea-0d81-4a57-8ea1-4f0a215aafcf"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="4ea88716-8780-4358-a221-98cd8d3b7b77"
+                LastKnownName="OperandOccurrenceSpecification16"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="ded76797-1462-40b3-a914-a012d002d279"
+            name="Файлова система журналу"
+            isActor="false"
+            lifelineDisplayName="Файлова система журналу">
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="29bc7619-2bdd-43f5-98d2-7f62c7a9ebd8"
+                LastKnownName="OperandOccurrenceSpecification17"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="055f86da-fc29-42f6-9485-d6c4ec727555"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="800d171f-73d4-4b14-872c-43698933853e"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="Helenium.Modelling.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="87cc1eb7-7bf4-4218-ac35-3dd269fa2435"
+                LastKnownName="OperandOccurrenceSpecification18"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="57c5730d-4e29-461e-ad1b-ae743ae4a7cf"
+            name="Виконує"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="40c8ffda-6490-4fa3-9219-664747fb63dd"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="70c2a168-120c-4467-ac11-7f4e3f737d28"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="70cd64b6-5271-4767-860e-57e72f9599dc"
+            name="Перевіряє права"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d7dad583-4bd6-4d33-bd3b-c4b5af385f77"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f2076148-783f-43d1-810d-310b511b1fd1"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="51e54d3d-feb6-4537-9839-c1a4d8109ae0"
+            name="Відображає"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="deba4570-9d1b-445b-aa19-a704c4b9e740"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="70287ffc-8744-4a92-90b3-bb9fae725e5e"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="38a57534-21d5-4a37-8333-45fc529d45b9"
+            name="Відображає"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1710be2f-7167-4052-b8dd-d6fff53d8a9e"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e5df2379-ba4b-4aa2-984b-6d0fa67b334c"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d76289ea-60c9-4880-a13b-328cb9ae82d3"
+            name="Зберігає результати"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c21bffb0-a701-4a57-bf4d-6a0ecab17274"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="93459a54-4a28-451d-bbe7-75943754fa93"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b1c85523-3b30-45f1-9217-e81a488e1b9c"
+            name="Завантажує сторінку"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7206b743-dd5b-4efb-b002-9cc26a33fd06"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ffe6f3d1-efcf-4c1c-bc21-20036ac4818b"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0ad01dc4-8d8a-4515-b4bd-178e29b7ada3"
+            name="Повідомляє про знайдені посилання"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="abc41abe-51f9-49a0-bea5-15b3de1857b2"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="43c8cbb1-b7a3-4c7b-8f1c-c939be6246f8"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c83f8298-40ec-46cd-8481-7cd13961e9f8"
+            name="Додає посилання до плану тестування"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e9124e98-d5d7-41c9-82b0-2ce680fc03f1"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c5dea78a-afe6-4f2e-9ded-dc93696ea8db"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3e254411-bf95-4e96-9fdc-9fb2d4c3093a"
+            name="Зберігає інформацію"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5de2311d-81a7-4917-8ab4-5f30757b888a"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="409ff367-184e-4807-bb14-c834ad8c2a90"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="881d519f-b671-45b2-9fd4-bdeb2e3b47b3"
+            name="Звітує про результат"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="75a0e782-64c7-4526-ae09-ebd16671b175"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="83744491-314b-4937-9255-ac5ab4d756f8"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="404345ea-3cb3-489a-9bb0-20d60e6be92e"
+            name="Закривається"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="38c47415-6678-46a3-b0e9-9d7e4448d06d"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="be0f3cf4-e53f-42ff-907d-6d6194eecf65"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4de207bb-3ad7-4748-8b1b-8c05c8d757fc"
+            name="Завершує роботу"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="343be7f8-e8eb-457b-b0fd-5627ea607567"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9123ee06-6bb9-4635-bafa-79ead67a3080"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="d90724d0-88d1-4bbe-acba-98baf6100c86"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <componentMoniker
+                Id="813b8a27-de26-4132-a3e7-52c92ccadb45"
+                LastKnownName="Helenium.DAL"
+                LastKnownLocation="Helenium.Modelling.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="bcab4283-352a-4533-a1a2-862bb9526038"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7589c018-fce5-4206-b01e-94cc66a44925"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="183e7b88-2119-447a-b3eb-eaab5443ce97"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="68d83dd2-3915-4d98-bd40-40240452c2bb"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="69f18e8d-5f4e-431e-81e4-db244eeb8b7b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0edd97ac-ce36-4b3f-9abe-0a174ec75f1c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="61510a20-af98-4706-819c-b19de0a1382b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2d6f2246-6d31-4a44-bc39-df46ef078b3a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2dbcb08e-8c88-48d8-933c-73043a14d47c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ac345419-fcd2-4264-9075-3184ab7e53b1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7a83ac71-0f7d-41c2-922c-0272b775a8b9"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="431ded06-a426-4347-ae82-20a4d0aa440a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9db393ae-6673-4d24-8766-f23dc7b68172"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0882415e-828e-4632-97b7-2e4eb90f642a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c3bfac29-c34a-49f2-bbb3-c78f62f09f74"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="31053fa0-2e6e-43aa-b7a2-a425ef0a1f32"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a5831b12-0c51-4978-b7fe-0dfaab6acfe5"
+        LastKnownName="Helenium.exe"
+        LastKnownLocation="Package_1805.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="813b8a27-de26-4132-a3e7-52c92ccadb45"
+        name="Helenium.DAL"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="1a7644aa-2b6d-4253-a367-0d5df275cfc2">
+            <componentMoniker
+              Id="d6cbfcfc-be3b-44cb-b487-ab286df9d96e"
+              LastKnownName="Helenium.Models"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="3f13ea5c-e8b0-4943-8a7d-18d49203e391"
+        name="Helenium.Resources"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="d6cbfcfc-be3b-44cb-b487-ab286df9d96e"
+        name="Helenium.Models"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="03749e4c-2bfb-4671-a554-43dcfc0167e8">
+            <componentMoniker
+              Id="a833e264-38a3-42dd-80c9-0b4c3a01ce56"
+              LastKnownName="Helenium.Tools"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+          <dependency
+            Id="49081674-8437-4d4c-b712-67d95aa8e0ac">
+            <componentMoniker
+              Id="3f13ea5c-e8b0-4943-8a7d-18d49203e391"
+              LastKnownName="Helenium.Resources"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="a833e264-38a3-42dd-80c9-0b4c3a01ce56"
+        name="Helenium.Tools"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="2197a19b-1c9a-4d6a-a987-65a7357777d8"
+        name="Helenium.UnitTests"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="b617335b-9d1c-48fd-b222-5c8cd10578bc">
+            <componentMoniker
+              Id="813b8a27-de26-4132-a3e7-52c92ccadb45"
+              LastKnownName="Helenium.DAL"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+          <dependency
+            Id="6e2e1852-e76a-4acd-98a5-d481e9ec54d9">
+            <componentMoniker
+              Id="d6cbfcfc-be3b-44cb-b487-ab286df9d96e"
+              LastKnownName="Helenium.Models"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="00084ac9-5897-4f9c-b7df-080786d22e6a"
+        LastKnownName="Helenium.UnitTests"
+        LastKnownLocation="Package_1808.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="5dc768fb-f22a-4473-b53a-37683ec30508"
+        name="Helenium.Views"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="9e73f9bd-f717-48b7-b578-b0c312834931">
+            <componentMoniker
+              Id="813b8a27-de26-4132-a3e7-52c92ccadb45"
+              LastKnownName="Helenium.DAL"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+          <dependency
+            Id="0f563db3-db9f-4781-91e2-942ce66a6537">
+            <componentMoniker
+              Id="3f13ea5c-e8b0-4943-8a7d-18d49203e391"
+              LastKnownName="Helenium.Resources"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+          <dependency
+            Id="97c3a1be-20d9-4fbc-a05d-666307bcc603">
+            <componentMoniker
+              Id="d6cbfcfc-be3b-44cb-b487-ab286df9d96e"
+              LastKnownName="Helenium.Models"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+          <dependency
+            Id="047f3608-9a8c-43db-bfc2-307108732ff0">
+            <componentMoniker
+              Id="a833e264-38a3-42dd-80c9-0b4c3a01ce56"
+              LastKnownName="Helenium.Tools"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="74cfeed7-d930-4669-9f59-cb26174b88cd"
+        name="Helenium.Main"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="d5a9a47d-1468-4a67-9099-7c36c1e912a5">
+            <componentMoniker
+              Id="5dc768fb-f22a-4473-b53a-37683ec30508"
+              LastKnownName="Helenium.Views"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+          <dependency
+            Id="a1cfc5b1-945c-4272-b2de-56b428073042">
+            <componentMoniker
+              Id="3f13ea5c-e8b0-4943-8a7d-18d49203e391"
+              LastKnownName="Helenium.Resources"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+          <dependency
+            Id="a3c6f629-487c-4281-8c69-226c010e21c7">
+            <componentMoniker
+              Id="a833e264-38a3-42dd-80c9-0b4c3a01ce56"
+              LastKnownName="Helenium.Tools"
+              LastKnownLocation="Helenium.Modelling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

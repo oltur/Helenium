@@ -1,0 +1,10 @@
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Tools\obj\Debug\Helenium.Tools.csprojResolveAssemblyReference.cache
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Tools\bin\Debug\Helenium.Tools.dll
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Tools\bin\Debug\Helenium.Tools.pdb
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Tools\obj\Debug\Helenium.Tools.dll
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Tools\obj\Debug\Helenium.Tools.pdb
+E:\_GoogleDrive\Helen\master\Helenium\Helenium.Tools\bin\Debug\Helenium.Tools.dll
+E:\_GoogleDrive\Helen\master\Helenium\Helenium.Tools\bin\Debug\Helenium.Tools.pdb
+E:\_GoogleDrive\Helen\master\Helenium\Helenium.Tools\obj\Debug\Helenium.Tools.csprojResolveAssemblyReference.cache
+E:\_GoogleDrive\Helen\master\Helenium\Helenium.Tools\obj\Debug\Helenium.Tools.dll
+E:\_GoogleDrive\Helen\master\Helenium\Helenium.Tools\obj\Debug\Helenium.Tools.pdb

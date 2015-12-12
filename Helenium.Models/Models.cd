@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Helenium.Models.ConfigData">
+    <Position X="6.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAACAgAAAgAAAUAAIAAACIAEAAAAgAABEAABAABAAUA=</HashCode>
+      <FileName>ConfigData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Helenium.Models.ErrorData">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ErrorData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Helenium.Models.URLData">
+    <Position X="1.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAEAAAAAAAAACAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>URLData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

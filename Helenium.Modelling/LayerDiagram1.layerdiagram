@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="96bf03c0-781a-441a-838b-149115dc996f" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="2e1e5875-21fe-4117-a2ec-5d19e5a94b25" name="Helenium.Main">
+      <references>
+        <reference Id="c94a44a5-1005-43ff-a126-c42598df033f" name="Helenium.Main">
+          <ArtifactNode Label="Helenium.Main" Category="CodeSchema_Project" Id="(Assembly=../Helenium.Main/Helenium.Main.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Helenium)" Label="Helenium.exe" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.exe" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="89b7fe6b-3448-446e-b93a-f78856c90a2a" name="Helenium.DAL">
+      <references>
+        <reference Id="f5e5627d-9ce7-49db-b8c6-5f985a8924e4" name="Helenium.DAL">
+          <ArtifactNode Label="Helenium.DAL" Category="CodeSchema_Project" Id="(Assembly=../Helenium.DAL/Helenium.DAL.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Helenium.DAL)" Label="Helenium.DAL.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="8de69146-dd68-4ec3-9a12-0def89435768" name="Layer1" />
+  </layers>
+</layerModel>

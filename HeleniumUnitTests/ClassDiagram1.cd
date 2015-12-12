@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Helenium.UnitTests.ConfigDataTests">
+    <Position X="3.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>ConfigDataTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Helenium.UnitTests.ErrorDataTests">
+    <Position X="6.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ErrorDataTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

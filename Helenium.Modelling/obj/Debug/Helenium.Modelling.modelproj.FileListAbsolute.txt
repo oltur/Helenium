@@ -1,0 +1,6 @@
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Modelling\bin\Debug\Helenium.Models.dll
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Modelling\bin\Debug\Helenium.Resources.dll
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Modelling\bin\Debug\Helenium.Models.pdb
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Modelling\bin\Debug\Helenium.Resources.pdb
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Modelling\bin\Debug\uk-UA\Helenium.Resources.resources.dll
+C:\_GoogleDrive\Helen\Bakalavrat\Helenium\Helenium.Modelling\obj\Debug\Helenium.Modelling.modelprojResolveAssemblyReference.cache

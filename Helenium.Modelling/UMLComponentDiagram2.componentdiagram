@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="bc75d9d2-7b14-4af3-bf0a-413221b8e4bd" name="UMLComponentDiagram2" linkedPackageId="218247b5-136b-4b2e-9804-105addb5cfab" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="36026d44-6ea3-4f5d-ab60-8bf6e1c5d304">
+      <profileInstance Id="f7bb0379-28d7-4424-a2b1-b5851a5a18d3" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d9f46c90-d7b5-4b34-a752-d45d527b2c3e">
+      <profileInstance Id="8246c0a7-490f-4c55-972b-71971c235f31" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="2d9c1847-f00b-4f03-8099-27d262efcc43" name="Helenium.UnitTests" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2197a19b-1c9a-4d6a-a987-65a7357777d8" />
+        <suppliersInternal>
+          <dependency Id="3b4510c1-85fd-48eb-83bf-5355957b2857">
+            <componentMoniker Id="60c8240f-f24d-49bd-93a9-390bc1120924" LastKnownName="Helenium.DAL" />
+            <elementDefinition Id="b617335b-9d1c-48fd-b222-5c8cd10578bc" />
+          </dependency>
+          <dependency Id="06bf6aa5-c2d6-4c4e-840a-fe953ac31694">
+            <componentMoniker Id="c35d07ba-b9f2-470f-b74e-e208af44d4a8" LastKnownName="Helenium.Models" />
+            <elementDefinition Id="6e2e1852-e76a-4acd-98a5-d481e9ec54d9" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="c065b329-2e3b-47a0-8209-d6d7376ec8ef" name="Helenium.Tools" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a833e264-38a3-42dd-80c9-0b4c3a01ce56" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="052795a5-5101-46c8-8910-3344cabd2824" name="Helenium.Resources" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3f13ea5c-e8b0-4943-8a7d-18d49203e391" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="c35d07ba-b9f2-470f-b74e-e208af44d4a8" name="Helenium.Models" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d6cbfcfc-be3b-44cb-b487-ab286df9d96e" />
+        <suppliersInternal>
+          <dependency Id="ccb9316d-27c0-4e81-bc1d-25a2465ecefd">
+            <componentMoniker Id="c065b329-2e3b-47a0-8209-d6d7376ec8ef" LastKnownName="Helenium.Tools" />
+            <elementDefinition Id="03749e4c-2bfb-4671-a554-43dcfc0167e8" />
+          </dependency>
+          <dependency Id="c2bade1f-2d73-4ea0-8c87-671cff9afd24">
+            <componentMoniker Id="052795a5-5101-46c8-8910-3344cabd2824" LastKnownName="Helenium.Resources" />
+            <elementDefinition Id="49081674-8437-4d4c-b712-67d95aa8e0ac" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="60c8240f-f24d-49bd-93a9-390bc1120924" name="Helenium.DAL" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="813b8a27-de26-4132-a3e7-52c92ccadb45" />
+        <suppliersInternal>
+          <dependency Id="67e0b448-787d-48cb-8de0-31b72ef52b51">
+            <componentMoniker Id="c35d07ba-b9f2-470f-b74e-e208af44d4a8" LastKnownName="Helenium.Models" />
+            <elementDefinition Id="1a7644aa-2b6d-4253-a367-0d5df275cfc2" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="95c4aa52-4de1-4d64-b3c6-55883b34fee6" name="Helenium.Views" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5dc768fb-f22a-4473-b53a-37683ec30508" />
+        <suppliersInternal>
+          <dependency Id="9775e519-8f02-49b9-a7da-242e971d5eb0">
+            <componentMoniker Id="60c8240f-f24d-49bd-93a9-390bc1120924" LastKnownName="Helenium.DAL" />
+            <elementDefinition Id="9e73f9bd-f717-48b7-b578-b0c312834931" />
+          </dependency>
+          <dependency Id="1e692ee7-2a2b-4435-b292-af8e75432006">
+            <componentMoniker Id="052795a5-5101-46c8-8910-3344cabd2824" LastKnownName="Helenium.Resources" />
+            <elementDefinition Id="0f563db3-db9f-4781-91e2-942ce66a6537" />
+          </dependency>
+          <dependency Id="87e8aad8-02b5-4b4c-ba5f-c56200aaedb3">
+            <componentMoniker Id="c35d07ba-b9f2-470f-b74e-e208af44d4a8" LastKnownName="Helenium.Models" />
+            <elementDefinition Id="97c3a1be-20d9-4fbc-a05d-666307bcc603" />
+          </dependency>
+          <dependency Id="830712ca-aeba-4510-9bbc-02c9176fa173">
+            <componentMoniker Id="c065b329-2e3b-47a0-8209-d6d7376ec8ef" LastKnownName="Helenium.Tools" />
+            <elementDefinition Id="047f3608-9a8c-43db-bfc2-307108732ff0" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="443ca89d-9ac4-42fb-adea-72cfd38d1420" name="Helenium.Main" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="74cfeed7-d930-4669-9f59-cb26174b88cd" />
+        <suppliersInternal>
+          <dependency Id="5165e2f8-c433-4b33-8a04-655eed1b2b12">
+            <componentMoniker Id="95c4aa52-4de1-4d64-b3c6-55883b34fee6" LastKnownName="Helenium.Views" />
+            <elementDefinition Id="d5a9a47d-1468-4a67-9099-7c36c1e912a5" />
+          </dependency>
+          <dependency Id="b7fd26bf-ff36-4bb0-aa70-0418cfa25efb">
+            <componentMoniker Id="052795a5-5101-46c8-8910-3344cabd2824" LastKnownName="Helenium.Resources" />
+            <elementDefinition Id="a1cfc5b1-945c-4272-b2de-56b428073042" />
+          </dependency>
+          <dependency Id="c4b9822f-bd1f-42e8-a82f-4e8780989d5f">
+            <componentMoniker Id="c065b329-2e3b-47a0-8209-d6d7376ec8ef" LastKnownName="Helenium.Tools" />
+            <elementDefinition Id="a3c6f629-487c-4281-8c69-226c010e21c7" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="218247b5-136b-4b2e-9804-105addb5cfab" name="Helenium.Modelling">
+    <elementDefinition Id="cff39077-d752-49ce-bbf4-c3fd57cb5bd1" />
+  </package>
+</componentModel>
