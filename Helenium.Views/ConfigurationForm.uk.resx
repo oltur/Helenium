@@ -118,44 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="tbDelayMs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 37</value>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 243</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 42</value>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 243</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 13</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>мс</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 13</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Шлях до журналу:</value>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Відміна</value>
   </data>
   <data name="tbPattern.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 8</value>
+    <value>112, 10</value>
   </data>
   <data name="tbPattern.Size" type="System.Drawing.Size, System.Drawing">
     <value>357, 20</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 13</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Шаблон адреси:</value>
-  </data>
-  <data name="tbLogPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 66</value>
-  </data>
-  <data name="tbLogPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>357, 20</value>
-  </data>
   <data name="cbDebugger.Location" type="System.Drawing.Point, System.Drawing">
-    <value>286, 37</value>
+    <value>290, 39</value>
   </data>
   <data name="cbDebugger.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 17</value>
@@ -163,23 +142,38 @@
   <data name="cbDebugger.Text" xml:space="preserve">
     <value>Використовувати відлагоджувач</value>
   </data>
-  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>289, 100</value>
+  <data name="tbLogPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 68</value>
   </data>
-  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>390, 100</value>
+  <data name="tbLogPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 20</value>
   </data>
-  <data name="btnCancel.Text" xml:space="preserve">
-    <value>Відміна</value>
+  <data name="tbMaxLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 37</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 13</value>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 13</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Інтервал переходу:</value>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Шаблон адреси:</value>
+  </data>
+  <data name="tbDelayMs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 39</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 71</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Шлях до журналу:</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>165, 42</value>
+    <value>169, 44</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 13</value>
@@ -187,13 +181,112 @@
   <data name="label5.Text" xml:space="preserve">
     <value>Макс. рівень:</value>
   </data>
-  <data name="tbMaxLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>246, 35</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 42</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Інтервал переходу:</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 44</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>мс</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 209</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Загальні налаштування</value>
+  </data>
+  <data name="textBoxName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 34</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Назва Персони</value>
+  </data>
+  <data name="nudTaskImportance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 164</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Важливість завдання</value>
+  </data>
+  <data name="nudTaskComplexity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 138</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Складність завдання</value>
+  </data>
+  <data name="nudNoiseLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 112</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Рівень шуму</value>
+  </data>
+  <data name="nudDeviceConvenience.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 86</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Зручніть пристрою</value>
+  </data>
+  <data name="nudWebProficiency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 60</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Досвід з Web</value>
+  </data>
+  <data name="comboBoxPersonas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 7</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Виберіть Персону</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 209</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Профіль Персони</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 209</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Вихідні параметри моделі користувача</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>496, 235</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>477, 135</value>
+    <value>494, 278</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Налагодження Helenium</value>
+    <value>Параметри системи</value>
   </data>
 </root>

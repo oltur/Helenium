@@ -31,7 +31,8 @@ namespace Helenium.DAL
             {
                 new ConfigData
                 {
-                    DelayMs=500,IsDebugger=false,LogPath="d:\\log",MaxHtmlLength=1024*1024,HasChanged =false,IsRunnning = false,UrlPattern ="",UrlsSerialized="",MaxLevel=2
+                    DelayMs=500,IsDebugger=false,LogPath="d:\\log",MaxHtmlLength=1024*1024,HasChanged =false,IsRunnning = false,UrlPattern ="",UrlsSerialized="",MaxLevel=2,
+                    UserData = new UserData() { PersonaName = "Unknown" }
                 }
             };
             data.ForEach(s => context.ConfigData.Add(s));

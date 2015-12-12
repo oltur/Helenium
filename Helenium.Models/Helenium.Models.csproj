@@ -50,6 +50,8 @@
     <Compile Include="ErrorData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="URLData.cs" />
+    <Compile Include="UserData.cs" />
+    <Compile Include="UserDataExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

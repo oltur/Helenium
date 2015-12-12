@@ -83,14 +83,14 @@ function SCRIPT_DC5C201F_C7E3_4379_8B4E_61DE116A76C8() {{
 
             try
             {
-                Config = db.ConfigData.First();
+                Config = db.ConfigData.Include("UserData").First();
                 db.Entry(Config).Collection(c => c.Errors).Load();
              }
             catch
             {
                 ConfigDataInitializer.DoInit(db);
                 
-                Config = db.ConfigData.First();
+                Config = db.ConfigData.Include("UserData").First();
                 db.Entry(Config).Collection(c => c.Errors).Load();
             }
 
@@ -345,6 +345,7 @@ function SCRIPT_DC5C201F_C7E3_4379_8B4E_61DE116A76C8() {{
         {
             var cf = new ConfigurationForm(Config);
             cf.ShowDialog(this);
+            db.SaveChanges();
         }
         /// <summary>
         /// Handles the Click event of the button2 control.
@@ -416,6 +417,8 @@ function SCRIPT_DC5C201F_C7E3_4379_8B4E_61DE116A76C8() {{
             var cf = new ConfigurationForm(Config);
             if (cf.ShowDialog(this) == DialogResult.OK)
             {
+                db.SaveChanges();
+
                 AppendLog(string.Format(Resources.Resources.Testisstarted,Environment.UserName,Environment.MachineName), false);
 
                 AddUrl(tbStartURL.Text, 0);

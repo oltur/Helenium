@@ -40,6 +40,8 @@ namespace Helenium.DAL
         /// </value>
         public virtual DbSet<ErrorData> ErrorData { get; set; }
 
+        public virtual DbSet<UserData> UserData { get; set; }
+
         /// <summary>
         /// This method is called when the model for a derived context has been initialized, but
         /// before the model has been locked down and used to initialize the context.  The default

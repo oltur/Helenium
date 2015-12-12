@@ -26,6 +26,7 @@ namespace Helenium.Models
         {
             html = new StringBuilder();
             Urls = new List<URLData>();
+//            UserData = new UserData() { PersonaName = Guid.NewGuid().ToString() };
         }
 
         /// <summary>
@@ -36,6 +37,8 @@ namespace Helenium.Models
         /// </value>
         [NotMapped]
         public List<URLData> Urls { get; set; }
+
+        public virtual UserData UserData { get; set; }
 
         /// <summary>
         /// Gets or sets the urls serialized.
